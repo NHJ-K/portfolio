@@ -4514,7 +4514,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.card {
+.cardre {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4525,83 +4525,83 @@ textarea.form-control-lg {
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
 }
-.card > hr {
+.cardre > hr {
   margin-right: 0;
   margin-left: 0;
 }
-.card > .list-group {
+.cardre > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
-.card > .list-group:first-child {
+.cardre > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: 0.375rem;
   border-top-right-radius: 0.375rem;
 }
-.card > .list-group:last-child {
+.cardre > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
-.card > .card-header + .list-group,
-.card > .list-group + .card-footer {
+.cardre > .cardre-header + .list-group,
+.cardre > .list-group + .cardre-footer {
   border-top: 0;
 }
 
-.card-body {
+.cardre-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
 }
 
-.card-title {
+.cardre-title {
   margin-bottom: 0.5rem;
 }
 
-.card-subtitle {
+.cardre-subtitle {
   margin-top: -0.25rem;
   margin-bottom: 0;
 }
 
-.card-text:last-child {
+.cardre-text:last-child {
   margin-bottom: 0;
 }
 
-.card-link + .card-link {
+.cardre-link + .cardre-link {
   margin-left: 1rem;
 }
 
-.card-header {
+.cardre-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125);
 }
-.card-header:first-child {
+.cardre-header:first-child {
   border-radius: 0.375rem 0.375rem 0 0;
 }
 
-.card-footer {
+.cardre-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 0.125rem solid rgba(0, 0, 0, 0.125);
 }
-.card-footer:last-child {
+.cardre-footer:last-child {
   border-radius: 0 0 0.375rem 0.375rem;
 }
 
-.card-header-tabs {
+.cardre-header-tabs {
   margin-right: -0.5rem;
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
 }
 
-.card-header-pills {
+.cardre-header-pills {
   margin-right: -0.5rem;
   margin-left: -0.5rem;
 }
 
-.card-img-overlay {
+.cardre-img-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -4611,62 +4611,62 @@ textarea.form-control-lg {
   border-radius: 0.375rem;
 }
 
-.card-img,
-.card-img-top,
-.card-img-bottom {
+.cardre-img,
+.cardre-img-top,
+.cardre-img-bottom {
   width: 100%;
 }
 
-.card-img,
-.card-img-top {
+.cardre-img,
+.cardre-img-top {
   border-top-left-radius: 0.375rem;
   border-top-right-radius: 0.375rem;
 }
 
-.card-img,
-.card-img-bottom {
+.cardre-img,
+.cardre-img-bottom {
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
 
-.card-group > .card {
+.cardre-group > .cardre {
   margin-bottom: 0.75rem;
 }
 @media (min-width: 576px) {
-  .card-group {
+  .cardre-group {
     display: flex;
     flex-flow: row wrap;
   }
-  .card-group > .card {
+  .cardre-group > .cardre {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  .card-group > .card + .card {
+  .cardre-group > .cardre + .cardre {
     margin-left: 0;
     border-left: 0;
   }
-  .card-group > .card:not(:last-child) {
+  .cardre-group > .cardre:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-top,
-.card-group > .card:not(:last-child) .card-header {
+  .cardre-group > .cardre:not(:last-child) .cardre-img-top,
+.cardre-group > .cardre:not(:last-child) .cardre-header {
     border-top-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-bottom,
-.card-group > .card:not(:last-child) .card-footer {
+  .cardre-group > .cardre:not(:last-child) .cardre-img-bottom,
+.cardre-group > .cardre:not(:last-child) .cardre-footer {
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:first-child) {
+  .cardre-group > .cardre:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-top,
-.card-group > .card:not(:first-child) .card-header {
+  .cardre-group > .cardre:not(:first-child) .cardre-img-top,
+.cardre-group > .cardre:not(:first-child) .cardre-header {
     border-top-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-bottom,
-.card-group > .card:not(:first-child) .card-footer {
+  .cardre-group > .cardre:not(:first-child) .cardre-img-bottom,
+.cardre-group > .cardre:not(:first-child) .cardre-footer {
     border-bottom-left-radius: 0;
   }
 }
