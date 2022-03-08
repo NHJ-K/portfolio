@@ -45,7 +45,7 @@
 .nrcntr .cardpr:nth-child(3) .box .content a {
   background: #23c186;
 }
-.nrcntr .cardpr:nth-child(4) .box .content a {
+.nrcntr .cardpr:nth-child(4) .box .content .ttt {
     background: #99cf1a;
 }
 .nrcntr .cardpr:nth-child(5) .box .content a {
@@ -53,6 +53,9 @@
 }
 .nrcntr .cardpr:nth-child(6) .box .content a {
     background: #cf277b;
+}
+.nrcntr .cardpr:nth-child(7) .box .content a {
+  background: #2a7ffd;
 }
 
 .nrcntr .cardpr .box {
@@ -131,3 +134,15 @@
   color: #000;
 }
 
+#tte{
+  background: none;
+  text-decoration: none;
+}
+#ttw{
+  background: none;
+  text-decoration: none;
+}
+#ttq{
+  background: none;
+  text-decoration: none;
+}
